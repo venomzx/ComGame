@@ -1,0 +1,115 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <TieredCompilation>false</TieredCompilation>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Content\Audios\**" />
+    <Compile Remove="Content\bin\DesktopGL\Audios\**" />
+    <Compile Remove="Content\bin\DesktopGL\Fonts\**" />
+    <Compile Remove="Content\bin\DesktopGL\MenuScreen\**" />
+    <Compile Remove="Content\bin\DesktopGL\PlayScreen\**" />
+    <Compile Remove="Content\bin\DesktopGL\SplashScreen\**" />
+    <Compile Remove="Content\Fonts\**" />
+    <Compile Remove="Content\MenuScreen\**" />
+    <Compile Remove="Content\obj\DesktopGL\Audios\**" />
+    <Compile Remove="Content\obj\DesktopGL\Content\**" />
+    <Compile Remove="Content\obj\DesktopGL\Fonts\**" />
+    <Compile Remove="Content\obj\DesktopGL\MenuScreen\**" />
+    <Compile Remove="Content\obj\DesktopGL\PlayScreen\**" />
+    <Compile Remove="Content\obj\DesktopGL\SplashScreen\**" />
+    <EmbeddedResource Remove="Content\Audios\**" />
+    <EmbeddedResource Remove="Content\bin\DesktopGL\Audios\**" />
+    <EmbeddedResource Remove="Content\bin\DesktopGL\Fonts\**" />
+    <EmbeddedResource Remove="Content\bin\DesktopGL\MenuScreen\**" />
+    <EmbeddedResource Remove="Content\bin\DesktopGL\PlayScreen\**" />
+    <EmbeddedResource Remove="Content\bin\DesktopGL\SplashScreen\**" />
+    <EmbeddedResource Remove="Content\Fonts\**" />
+    <EmbeddedResource Remove="Content\MenuScreen\**" />
+    <EmbeddedResource Remove="Content\obj\DesktopGL\Audios\**" />
+    <EmbeddedResource Remove="Content\obj\DesktopGL\Content\**" />
+    <EmbeddedResource Remove="Content\obj\DesktopGL\Fonts\**" />
+    <EmbeddedResource Remove="Content\obj\DesktopGL\MenuScreen\**" />
+    <EmbeddedResource Remove="Content\obj\DesktopGL\PlayScreen\**" />
+    <EmbeddedResource Remove="Content\obj\DesktopGL\SplashScreen\**" />
+    <None Remove="Content\Audios\**" />
+    <None Remove="Content\bin\DesktopGL\Audios\**" />
+    <None Remove="Content\bin\DesktopGL\Fonts\**" />
+    <None Remove="Content\bin\DesktopGL\MenuScreen\**" />
+    <None Remove="Content\bin\DesktopGL\PlayScreen\**" />
+    <None Remove="Content\bin\DesktopGL\SplashScreen\**" />
+    <None Remove="Content\Fonts\**" />
+    <None Remove="Content\MenuScreen\**" />
+    <None Remove="Content\obj\DesktopGL\Audios\**" />
+    <None Remove="Content\obj\DesktopGL\Content\**" />
+    <None Remove="Content\obj\DesktopGL\Fonts\**" />
+    <None Remove="Content\obj\DesktopGL\MenuScreen\**" />
+    <None Remove="Content\obj\DesktopGL\PlayScreen\**" />
+    <None Remove="Content\obj\DesktopGL\SplashScreen\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Content\obj\DesktopGL\.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\.mgstats" />
+    <None Remove="Content\obj\DesktopGL\about.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\aboutposter.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\apkprof.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\apocalypsemode.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\apply1.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\apply2.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\Arial.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\back.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\back2.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\bestpic.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\Buckler.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\CubeTheme.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\daveZomb.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\emberpic.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\ez.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\ezZomb.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\Kick.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\left.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\levelselector.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\Loonboon.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\mainmenubg.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\medbutt.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\MedZomb.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\monkey.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\no.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\optionbutt.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\QuitButt.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\Rankingbutton.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\Ready.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\right.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\Rosh.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\startbutton.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\yes.mgcontent" />
+    <None Remove="Content\obj\DesktopGL\Zomboid.mgcontent" />
+    <None Remove="Content\Zombie.spritefont" />
+    <None Remove="Icon.ico" />
+    <None Remove="Icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon.ico" />
+    <EmbeddedResource Include="Icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <TrimmerRootAssembly Include="Microsoft.Xna.Framework.Content.ContentTypeReader" Visible="false" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641" />
+    <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.0.1641" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\bin\DesktopGL\" />
+    <Folder Include="Content\obj\DesktopGL\" />
+  </ItemGroup>
+</Project>
